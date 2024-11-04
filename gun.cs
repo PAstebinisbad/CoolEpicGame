@@ -1,5 +1,3 @@
-
-
 using System.Collections;
 using UnityEngine;
 using UnityEngine.UI;
@@ -156,14 +154,4 @@ public class Gun : MonoBehaviour
         yield return new WaitForSeconds(0.1f); // Duration for which the line is visible
         lineRenderer.enabled = false;
     }
-
-//    void UpdateGunTypeText()
-  //  {
-    //    if (gunTypeText != null)
-      //  {
-        //    string gunType = currentGunIndex == 0 ? "Pistol" : (currentGunIndex == 1 ? "Sniper" : "Shotgun");
-          //  gunTypeText.text = "Current Gun: " + gunType;
-       // }
-    //}
 }
- 
